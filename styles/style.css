@@ -20,12 +20,18 @@ footer p a {
     overflow: hidden; /* Para evitar que a imagem se expanda para fora do container */
   }
   
-  .zoom-image {
+.zoom-image {
     transition: transform 0.3s ease; /* Adicionando a animação */
   }
   
   /* Adicionando a animação ao passar o mouse sobre a imagem */
-  .zoom-image:hover {
+.zoom-image:hover {
     transform: scale(1.1); /* Aumenta a escala para 1.2 (20% maior) */
   }
   
+@media (max-width: 400px) 
+    {.input-group {width: 260px;}
+	.display-4 { font-size: 2.0rem;}}
+ 
+@media (max-width: 290px) { .input-group 
+    {width: 190px;}}
