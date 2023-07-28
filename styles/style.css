@@ -4,3 +4,28 @@
     background-color: #ffc107;
     color: white;
 }
+
+.caixa {
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+    margin: 5px 15px;
+}
+
+/* Definindo o estilo padrão da imagem */
+.image-container {
+    display: inline-block;
+    overflow: hidden; /* Para evitar que a imagem se expanda para fora do container */
+  }
+  
+  .zoom-image {
+    transition: transform 0.3s ease; /* Adicionando a animação */
+  }
+  
+  /* Adicionando a animação ao passar o mouse sobre a imagem */
+  .zoom-image:hover {
+    transform: scale(1.1); /* Aumenta a escala para 1.2 (20% maior) */
+  }
+  
