@@ -29,11 +29,22 @@ footer p a {
     transform: scale(1.1); /* Aumenta a escala para 1.2 (20% maior) */
   }
 
-@media (max-width: 400px) { 
-    .input-group{
-        width: 200px;
+.btn-primary{
+    width: 100%;
+}
+
+@media (min-width: 767px) {
+    .form-sm{
+        display: none;
     }
-    .input-group-append{
-        width: 200px;
+}
+@media (max-width: 767px) {
+    .form-lg{
+        display: none;
+    }
+    .display-4{
+        font-size: 40px;
+        margin: 40px auto;
+        text-align: center;
     }
 }
